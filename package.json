@@ -1,0 +1,27 @@
+{
+  "name": "data-on-demand-using-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "type": "module",
+  "scripts": {
+    "start:service1": "nodemon src/service1",
+    "start:service2": "nodemon src/service2",
+    "start:client": "nodemon src/client",
+    "start": "npm run start:service1 & npm run start:service2 & npm run start:client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itssameer/data-on-demand-using-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itssameer/data-on-demand-using-generator/issues"
+  },
+  "homepage": "https://github.com/itssameer/data-on-demand-using-generator#readme",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
